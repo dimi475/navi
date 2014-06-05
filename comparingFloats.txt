@@ -1,0 +1,19 @@
+using System;
+
+
+
+    class ComparingFloats
+    {
+        static void Main()
+        {
+            float alfa = 7.000003f;
+            Console.WriteLine("a =" + alfa);
+            float bravo = 5.000002f;
+            Console.WriteLine("b =" + bravo);
+            float eps = Math.Abs(alfa * .000001f);
+            if (Math.Abs(alfa - bravo) < eps)
+                Console.WriteLine("a and b are equal.");
+            else
+                Console.WriteLine("a and b are unequal.");
+        }
+    }
