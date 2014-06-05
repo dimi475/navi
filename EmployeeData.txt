@@ -1,0 +1,22 @@
+using System;
+
+
+
+    class EmployeeData
+    {
+        static void Main()
+        {
+            string nameAge = " First name :\n Last name :\n Age :";
+            sbyte age = 35;
+            Console.WriteLine(nameAge + age);
+            string gender = " Gender :";
+            char gender1 = 'f';
+            Console.WriteLine(gender + gender1);
+            string personID = " Personal ID N :";
+            double personID1 = 8214121023d;
+            Console.WriteLine(personID + personID1);
+            string uniquEmploN = " Unique employee N :";
+            double uniquEmploN1 = 12376543299d;
+            Console.WriteLine(uniquEmploN + uniquEmploN1);
+        }
+    }
